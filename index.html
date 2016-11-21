@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Soccer Trivia</title>
+	<link href="https://fonts.googleapis.com/css?family=Jaldi:400,700|Raleway:900" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="container">	
+		<h1>Soccer Trivia</h1>
+		<div class="start">
+			<button id="start" type="button">Start</button>
+		</div>
+		<div class="game">	
+			<h2>Time remaining: <span id="counter"></span> seconds</h2>
+			<br>
+			<h2>What nation won its first World Cup in 1998?</h2>
+			<input type="radio" name="q1" value="wrong"> Germany 
+			<input type="radio" name="q1" value="right"> France
+			<input type="radio" name="q1" value="wrong"> Italy
+			<input type="radio" name="q1" value="wrong"> Mexico
+			<h2>What mononymous footballer famously headbutted an opponent in the 2006 World Cup?</h2>
+			<input type="radio" name="q2" value="wrong"> Ronaldinho
+			<input type="radio" name="q2" value="wrong"> Xavi 
+			<input type="radio" name="q2" value="wrong"> Pele 
+			<input type="radio" name="q2" value="right"> Zidane 
+			<h2>What is the name of the rivalry game played between Liverpool FC and Everton FC of the English Premier League?</h2>
+			<input type="radio" name="q3" value="wrong"> Tyneside Derby 
+			<input type="radio" name="q3" value="right"> Merseyside Derby 
+			<input type="radio" name="q3" value="wrong"> Kentucky Derby 
+			<input type="radio" name="q3" value="wrong"> Liverpool Derby 
+			<h2>What country has won the most World Cup trophies?</h2>
+			<input type="radio" name="q4" value="right"> Brazil
+			<input type="radio" name="q4" value="wrong"> Germany
+			<input type="radio" name="q4" value="wrong"> Argentina
+			<input type="radio" name="q4" value="wrong"> France
+			<h2>What football superstar said, "Maybe they hate me because I'm too good"?</h2>
+			<input type="radio" name="q5" value="right"> Ronaldo
+			<input type="radio" name="q5" value="wrong"> Zlatan Ibrahimovic
+			<input type="radio" name="q5" value="wrong"> Lionel Messi
+			<input type="radio" name="q5" value="wrong"> Johan Cruyff
+			<h2>What league is the highest division or professional soccer in the United States</h2>
+			<input type="radio" name="q6" value="wrong"> North American Soccer League
+			<input type="radio" name="q6" value="wrong"> United States Scocer Federation
+			<input type="radio" name="q6" value="right"> Major League Soccer
+			<input type="radio" name="q6" value="wrong"> United Soccer League
+			<h2>If a player is issued __ yellow cards he/she is ejected from the game</h2>
+			<input type="radio" name="q7" value="right"> 2
+			<input type="radio" name="q7" value="wrong"> 3
+			<input type="radio" name="q7" value="wrong"> 4
+			<input type="radio" name="q7" value="wrong"> 5
+			<h2>What woman has scored the most international goals in soccer?</h2>
+			<input type="radio" name="q8" value="wrong"> Marta
+			<input type="radio" name="q8" value="wrong"> Alex Morgan
+			<input type="radio" name="q8" value="right"> Abby Wambach
+			<input type="radio" name="q8" value="wrong"> Mia Hamm
+			<h2>Who is the highest-scoring male player in U.S. international soccer</h2>
+			<input type="radio" name="q9" value="wrong"> Clint Dempsey
+			<input type="radio" name="q9" value="wrong"> Brian McBride
+			<input type="radio" name="q9" value="wrong"> Jozy Altidore
+			<input type="radio" name="q9" value="right"> Landon Donovan
+			<h2>What is the name of world football's highest individual prize (Think MVP for soccer)?</h2>
+			<input type="radio" name="q10" value="wrong"> Golden Boot
+			<input type="radio" name="q10" value="right"> Ballon D'or
+			<input type="radio" name="q10" value="wrong"> Player of the Year
+			<input type="radio" name="q10" value="wrong"> El Mas Valoso
+			<br>
+			<br>
+			<br>
+			<button id="done" type="button">Done</button>
+		</div>
+		<div class="end">
+			<img src="assets/images/trophy.png" alt="trophy"><br>
+			<h2>All done!</h2>
+			<p>Right: <span id="right"></span></p>
+			<p>Wrong: <span id="wrong"></span></p>
+			<p>Unanswered: <span id="unanswered"></span></p>
+		</div>
+	</div>
+	<script src="assets/javascript/app.js"></script>
+</body>
+</html>

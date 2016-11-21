@@ -1,0 +1,44 @@
+body {
+	background-image: url("../images/soccer-bg.jpg");
+	background-color: green;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:white;
+	font-family: sans-serif;
+}
+
+.container {
+	text-align:center;
+	margin: auto;
+	width:50%;
+	border:3px solid white;
+	padding:10px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+}
+
+h2 {
+	font-family: 'Jaldi', sans-serif;
+	padding: 0 20px;
+}
+
+button {
+	padding: 8px 18px;
+	font-size:28px;
+}
+
+img {
+	width:30%;
+}
+
+.game {
+	display:none;
+}
+
+.end {
+	display:none;
+}
