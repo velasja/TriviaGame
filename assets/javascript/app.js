@@ -40,21 +40,5 @@ $(document).ready(function(){
 
 		}
 
-		// function tick(){
-
-		// 	// for (var i=120;i>0;i--){
-		// 		time--;
-		// 			console.log(time);
-		// 	// }
-				
-
-		// }
-		
-
 })
-
-// function tickTock(){
-// 	time--;
-// 	var 
-// }
 
